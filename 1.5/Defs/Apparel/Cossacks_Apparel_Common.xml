@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="MisterM_Cossacks_Apparel" Abstract="True" ParentName="ApparelMakeableBase">
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.00001</generateCommonality>
+
+	<thingCategories Inherit='False'>
+      <li>MisterM_Cossacks_WearCategory</li>
+    </thingCategories>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef> HatMakeableBase
+  
+  <ThingDef Name="MisterM_Cossacks_Apparel_Hat" Abstract="True" ParentName="HatMakeableBase">
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.00001</generateCommonality>
+
+	<thingCategories Inherit='False'>
+      <li>MisterM_Cossacks_HeadWearCategory</li>
+    </thingCategories>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef> 
+</Defs>

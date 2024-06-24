@@ -1,0 +1,5 @@
+TO-DO List
+1. Add rest of the clothes (Vyshyvanka, Sirwal, Gazyr?)
+2. Add weapons (Shashka, Gazyr?)
+3. Add textures for both clothes and weapons
+4. Add separate research project for both clothes nad weapons
