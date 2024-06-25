@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingCategoryDef>
-    <defName>MisterM_Cossacks_WearCategory</defName>
-    <label>Cossacks</label>
-    <parent>Apparel</parent>
-    <!-- <iconPath>Apparel/Boots/Boots</iconPath> -->
-  </ThingCategoryDef>
+	<!-- Apparel -->
+	<ThingCategoryDef>
+		<defName>MisterM_Cossacks_WearCategory</defName>
+		<label>Cossacks</label>
+		<parent>Apparel</parent>
+		<!-- <iconPath>Apparel/Boots/Boots</iconPath> -->
+	</ThingCategoryDef>
   
-  <ThingCategoryDef>
-    <defName>MisterM_Cossacks_HeadWearCategory</defName>
-    <label>HeadWear</label>
-    <parent>MisterM_Cossacks_WearCategory</parent>
-    <!-- <iconPath>Apparel/Boots/Boots</iconPath> -->
-  </ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>MisterM_Cossacks_HeadWearCategory</defName>
+		<label>HeadWear</label>
+		<parent>MisterM_Cossacks_WearCategory</parent>
+		<!-- <iconPath>Apparel/Boots/Boots</iconPath> -->
+	</ThingCategoryDef>
+  
+  
+	<!-- Weapons -->
+	<ThingCategoryDef>
+		<defName>MisterM_Cossacks_WeaponCategory</defName>
+		<label>Cossacks</label>
+		<parent>Weapons</parent>
+		<!-- <iconPath>Apparel/Boots/Boots</iconPath> -->
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>MisterM_Cossacks_MeleeWeaponCategory</defName>
+		<label>Melee</label>
+		<parent>MisterM_Cossacks_WeaponCategory</parent>
+		<!-- <iconPath>Apparel/Boots/Boots</iconPath> -->
+	</ThingCategoryDef>
 
 </Defs>

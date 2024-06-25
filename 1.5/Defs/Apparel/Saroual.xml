@@ -2,45 +2,41 @@
 <Defs>
 
   <ThingDef ParentName="MisterM_Cossacks_Apparel">
-    <defName>MisterM_Cherkeska</defName>
-    <label>Cherkeska</label>
+    <defName>MisterM_Saroual</defName>
+    <label>Saroual</label>
     <description>TO DO.</description>
 
     <graphicData>
-      <texPath>Apparel/Circassian/Duster</texPath>
+      <texPath>Apparel/Saroual/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 
     <statBases>
       <MaxHitPoints>190</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
-      <Mass>1.2</Mass>
-      <EquipDelay>2.5</EquipDelay>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <EquipDelay>1.8</EquipDelay>
       <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
     </statBases>
 
-    <costStuffCount>75</costStuffCount>
+    <costStuffCount>45</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
 	
 	<equippedStatOffsets>
-		<SocialImpact>0.15</SocialImpact>
-		<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+		<SocialImpact>0.05</SocialImpact>
 	</equippedStatOffsets>
 
     <apparel>
       <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-		<li>Neck</li>
 		<li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/Circassian/Duster</wornGraphicPath>
+      <!-- <wornGraphicPath>Apparel/Saroual/Pants</wornGraphicPath> -->
       <layers>
-		<li>Shell</li>
+		<li>OnSkin</li>
       </layers>
       <tags>
         <li>MisterM_Cossacks</li>
