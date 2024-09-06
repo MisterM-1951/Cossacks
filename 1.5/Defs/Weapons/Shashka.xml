@@ -5,8 +5,9 @@
 	<label>Shashka</label>
 	<description>TO DO.</description>
 	<graphicData>
-		<texPath>Weapons/Shashka/Gladius</texPath>
+		<texPath>Weapons/Shashka/Shashka</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 	
     <weaponTags>
@@ -20,7 +21,7 @@
 		<Mass>0.5</Mass>
 	</statBases>
 	
-	<equippedAngleOffset>-65</equippedAngleOffset>
+	<equippedAngleOffset>-25</equippedAngleOffset>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>

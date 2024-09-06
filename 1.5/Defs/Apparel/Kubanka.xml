@@ -7,8 +7,9 @@
     <description>TO DO.</description>
 
     <graphicData>
-      <texPath>Apparel/Kubanka/Tuque</texPath>
+      <texPath>Apparel/Kubanka/Kubanka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
 
     <statBases>
@@ -35,7 +36,8 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/Kubanka/Tuque</wornGraphicPath>
+      <wornGraphicPath>Apparel/Kubanka/Kubanka</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
 		<li>Overhead</li>
       </layers>

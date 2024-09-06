@@ -7,8 +7,9 @@
     <description>TO DO.</description>
 
     <graphicData>
-      <texPath>Apparel/Circassian/Duster</texPath>
+      <texPath>Apparel/Cherkeska/Cherkeska</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
 
     <statBases>
@@ -38,7 +39,7 @@
 		<li>Neck</li>
 		<li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/Circassian/Duster</wornGraphicPath>
+      <wornGraphicPath>Apparel/Cherkeska/Cherkeska</wornGraphicPath>
       <layers>
 		<li>Shell</li>
       </layers>

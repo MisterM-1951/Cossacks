@@ -2,12 +2,12 @@
 <Defs>
 
   <ThingDef ParentName="MisterM_Cossacks_Apparel">
-    <defName>MisterM_Saroual</defName>
-    <label>Saroual</label>
+    <defName>MisterM_Sharovary</defName>
+    <label>Sharovary</label>
     <description>TO DO.</description>
 
     <graphicData>
-      <texPath>Apparel/Saroual/Pants</texPath>
+      <texPath>Apparel/Sharovary/Sharovary</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 
